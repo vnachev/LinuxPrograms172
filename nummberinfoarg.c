@@ -3,18 +3,18 @@
 
 int main(int argc, char *argv[])
 {
-   int number;
+   int num;
    if (argc != 2)
    {
       printf("Invalid input\n");
       return 1;
    }
-   number = atoi(argv[1]);
-   if (number == 0)
+   num = atoi(argv[1]);
+   if (num == 0)
    {
       printf("Zero\n");
    }
-   else if (number < 0)
+   else if (num < 0)
    {
      printf("Negative\n");
    }
